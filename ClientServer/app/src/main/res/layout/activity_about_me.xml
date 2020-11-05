@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="50dp">
+
+    <LinearLayout
+
+        android:layout_width="331dp"
+        android:layout_height="665dp"
+        android:layout_gravity="center"
+        android:background="@drawable/kotakan"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/icon_tentang"
+            android:paddingLeft="10dp"
+            android:text="@string/judul_tentang"
+            android:textColor="#202020"
+            android:textSize="33dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="575dp"
+            android:background="#00C495"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="27dp"
+                android:paddingTop="2dp"
+                android:text="Hello World!!"
+                android:textColor="#696363"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="149dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/puputz"
+                    app:civ_border_color="#2979FF"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#1DE9B6" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="fill_horizontal"
+                    android:fontFamily="casual"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="3dp"
+
+
+                    android:text="Nama Saya Puput Candra Saputra\nSaya berasal dari Kendal.\nHanya Mahasiswa STEKOM yang ingin cepat wisuda. Udah itu Saja Ga Lebih H3H3."
+                    android:textColor="#ffff"
+                    android:textSize="12.5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:paddingTop="10dp"
+                android:text="Kontak Saya"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+
+                android:textStyle="bold" />
+            <TextView
+                android:onClick="wa_"
+                android:id="@+id/btnWhatsapp"
+                android:drawableLeft="@drawable/wa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text=" 08985944764"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+
+                android:textStyle="bold" />
+            <TextView
+                android:onClick="fb_"
+                android:drawableLeft="@drawable/fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:paddingTop="10dp"
+                android:text=" Puput Saputra"
+                android:textColor="#ffff"
+                android:textSize="29dp"
+
+                android:textStyle="bold" />
+            <TextView
+                android:onClick="ig_"
+                android:drawableLeft="@drawable/ig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="70dp"
+                android:paddingTop="10dp"
+                android:text=" puput.cs"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="~ Sekian Dan Terimakasih ~"
+                android:textColor="#4E4E4E"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

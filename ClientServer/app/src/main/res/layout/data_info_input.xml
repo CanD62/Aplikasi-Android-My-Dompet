@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<LinearLayout
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/edJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oleh"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/edOleh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Oleh"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi Informasi"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/edIsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Isi"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btSimpan"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
